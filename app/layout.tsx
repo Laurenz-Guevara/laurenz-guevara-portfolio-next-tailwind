@@ -1,10 +1,12 @@
 import './globals.css';
 
-import { Roboto } from '@next/font/google';
+import { Montserrat } from '@next/font/google';
+import Link from 'next/link';
 
-const roboto = Roboto({
+const roboto = Montserrat({
   subsets: ['latin'],
-  weight: ['300', '400', '700'],
+  weight: ['300', '400', '500', '700'],
+  display: 'swap',
 });
 
 export default function RootLayout({
@@ -20,16 +22,7 @@ export default function RootLayout({
       */}
       <head />
 
-      <body className="bg-base-100">
-        <header className="bg-gray-100">
-          <div className="mx-auto flex max-w-screen-xl flex-col px-4 md:flex-row md:items-center md:justify-between md:px-6 lg:px-8">
-            <div className="flex flex-row items-center justify-between p-4">
-              <h1>Laurenz Guevara</h1>
-            </div>
-          </div>
-        </header>
-        {children}
-      </body>
+      <body className="bg-base-100">{children}</body>
     </html>
   );
 }

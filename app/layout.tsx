@@ -1,9 +1,8 @@
 import './globals.css';
 
-import { Montserrat } from '@next/font/google';
-import Link from 'next/link';
+import { Roboto_Mono } from '@next/font/google';
 
-const roboto = Montserrat({
+const roboto = Roboto_Mono({
   subsets: ['latin'],
   weight: ['300', '400', '500', '700'],
   display: 'swap',

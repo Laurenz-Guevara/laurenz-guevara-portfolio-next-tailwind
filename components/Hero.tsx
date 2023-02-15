@@ -19,7 +19,7 @@ function Hero() {
     };
     window.addEventListener('resize', appHeight);
     appHeight();
-  });
+  }, []);
 
   return (
     <main className=" mx-auto min-h-screen  max-w-screen-xl overflow-hidden">

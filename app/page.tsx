@@ -1,14 +1,11 @@
-'use client';
-
-import NavBar from '@/components/NavBar';
-import Link from 'next/link';
+import Hero from '@/components/Hero';
 
 export default function Home() {
   return (
     <>
-      <NavBar />
+      <Hero />
       <main className="mx-auto max-w-screen-xl px-8">
-        <h1>Hello world!</h1>
+        <h1 className="bg-red-600">Hello world!</h1>
       </main>
     </>
   );

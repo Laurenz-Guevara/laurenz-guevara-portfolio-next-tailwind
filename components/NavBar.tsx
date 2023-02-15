@@ -5,12 +5,12 @@ import React from 'react';
 
 function NavBar() {
   return (
-    <header className="bg-white">
-      <div className="mx-auto flex max-w-screen-xl flex-col py-6 text-xl font-bold md:flex-row md:items-center md:justify-between ">
-        <div className="hidden flex-row items-center justify-between md:flex">
+    <header className="mb-4 px-8 lg:px-20">
+      <div className="mx-auto flex max-w-screen-xl flex-col py-6 text-xl font-bold lg:flex-row lg:items-center lg:justify-between ">
+        <div className=" flex-row items-center justify-between lg:flex">
           <h1 className="">Laurenz Guevara</h1>
         </div>
-        <nav className="flex flex-wrap justify-center text-center md:block [&>a]:w-full [&>a]:py-2 md:[&>a]:px-4">
+        <nav className="flex hidden flex-wrap justify-center text-center lg:block [&>a]:w-full [&>a]:py-2 lg:[&>a]:px-4">
           <Link href="/">Projects</Link>
           <Link href="/">Experience</Link>
           <Link href="/">About Me</Link>

@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import NavBar from './NavBar';
 import Image from 'next/image';
 
@@ -12,12 +12,14 @@ import blueElipse from '../assets/shapes/blue-elipse.svg';
 import arrowDown from '../assets/shapes/arrow-down.svg';
 
 function Hero() {
-  const appHeight = () => {
-    const doc = document.documentElement;
-    doc.style.setProperty('--app-height', `${window.innerHeight}px`);
-  };
-  window.addEventListener('resize', appHeight);
-  appHeight();
+  useEffect(() => {
+    const appHeight = () => {
+      const doc = document.documentElement;
+      doc.style.setProperty('--app-height', `${window.innerHeight}px`);
+    };
+    window.addEventListener('resize', appHeight);
+    appHeight();
+  });
 
   return (
     <main className=" mx-auto min-h-screen  max-w-screen-xl overflow-hidden">

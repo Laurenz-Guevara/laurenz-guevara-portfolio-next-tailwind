@@ -19,6 +19,5 @@
   .min-safe-h-screen {
     /* for ios safari 15, safe-area-inset-bottom is 0, so a special fix apply here */
     min-height: -webkit-fill-available;
-    background-color: red !important;
   }
 }

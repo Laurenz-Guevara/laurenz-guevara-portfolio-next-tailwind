@@ -1,11 +1,11 @@
 'use client';
 
-import React, { useEffect } from 'react';
+import React from 'react';
 import NavBar from './NavBar';
 import Image from 'next/image';
 
-import mockup from '../assets/mockups/mockup.svg';
-import mockupSide from '../assets/mockups/mockup-side.svg';
+import mockup from '../assets/mockups/mockup.png';
+import mockupSide from '../assets/mockups/mockup-side.png';
 import redBubble from '../assets/shapes/red-bubbles.svg';
 import redElipse from '../assets/shapes/red-elipse.svg';
 import blueElipse from '../assets/shapes/blue-elipse.svg';
@@ -37,7 +37,12 @@ function Hero() {
         </div>
         <div className="-mb-10 ml-[27px] flex justify-center self-end lg:ml-0">
           <div>
-            <Image src={mockup} alt="Mockup Front" className="z-10 " />
+            <Image
+              src={mockup}
+              alt="Mockup Front"
+              className="z-10"
+              width={177}
+            />
             <Image
               src={blueElipse}
               alt="Mockup Front"
@@ -50,7 +55,12 @@ function Hero() {
               alt="Mockup Front"
               className="relative -right-7 top-36  -z-10"
             />
-            <Image src={mockupSide} alt="Mockup Front" className="z-10" />
+            <Image
+              src={mockupSide}
+              alt="Mockup Front"
+              className="z-10"
+              width={177}
+            />
           </div>
         </div>
         <div className="pt-4 text-center">

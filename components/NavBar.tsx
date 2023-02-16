@@ -5,7 +5,7 @@ import React from 'react';
 
 function NavBar() {
   return (
-    <header className="mb-4 px-8 lg:px-20">
+    <header className="px-8 lg:px-20">
       <div className="mx-auto flex max-w-screen-xl flex-col py-6 text-xl font-bold lg:flex-row lg:items-center lg:justify-between ">
         <div className=" flex-row items-center justify-between lg:flex">
           <h1 className="">Laurenz Guevara</h1>

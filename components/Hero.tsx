@@ -30,7 +30,7 @@ function Hero() {
           </h1>
           <button
             onClick={() => console.log('hi')}
-            className="my-5 hidden rounded-full bg-palette-100 px-5 py-1 text-lg font-[500] text-white hover:bg-palette-300 hover:text-white lg:block lg:text-xl"
+            className="my-5 hidden rounded-full bg-palette-100 px-5 py-1 text-lg font-[500] text-white hover:bg-palette-300 lg:block lg:text-xl"
           >
             VIEW PORTFOLIO
           </button>

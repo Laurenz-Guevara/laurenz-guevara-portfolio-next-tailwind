@@ -1,12 +1,12 @@
 import Hero from '@/components/Hero';
+import Cliffcrafts from '@/components/Cliffcrafts';
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <main className="mx-auto max-w-screen-xl px-8">
-        <h1 className="bg-red-600">Hello world!</h1>
-      </main>
+      <div className="h-10 bg-palette-200"></div>
+      <Cliffcrafts />
     </>
   );
 }

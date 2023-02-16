@@ -18,6 +18,9 @@ module.exports = {
         },
       },
     },
+    gridTemplateColumns: {
+      stack: 'repeat(4,auto)',
+    },
   },
   plugins: [],
 };

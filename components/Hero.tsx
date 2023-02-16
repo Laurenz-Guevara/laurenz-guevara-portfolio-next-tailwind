@@ -13,9 +13,9 @@ import arrowDown from '../assets/shapes/arrow-down.svg';
 
 function Hero() {
   return (
-    <main className="min-h-safe mx-auto  min-h-screen max-w-screen-xl overflow-hidden">
+    <main className="mx-auto min-h-screen  max-w-screen-xl overflow-hidden">
       <NavBar />
-      <div className="min-h-[calc(100vh - 76px)] place-content-center px-8 lg:grid lg:min-h-[calc(100vh_-_83px)] lg:grid-cols-2 lg:grid-rows-1 lg:px-20">
+      <div className="place-content-center px-8 lg:grid lg:min-h-[calc(100vh_-_83px)] lg:grid-cols-2 lg:grid-rows-1 lg:px-20">
         <div className="self-center">
           <Image
             src={redBubble}
@@ -25,7 +25,7 @@ function Hero() {
           <p className="hidden text-xl font-bold lg:block lg:text-base">
             Web Developer, Tinkerer and Mad Scientist
           </p>
-          <h1 className="px-8 pt-4 pb-10 text-center text-3xl font-bold lg:py-0 lg:px-0 lg:text-start lg:text-4xl lg:text-5xl xl:text-6xl">
+          <h1 className="px-8 pt-4 pb-10 text-center text-3xl font-bold md:text-4xl lg:py-0 lg:px-0 lg:pr-8 lg:text-start lg:text-5xl xl:pr-0 xl:text-6xl">
             Providing fantastic digital experiences.
           </h1>
           <button
@@ -59,7 +59,7 @@ function Hero() {
           </p>
           <button
             onClick={() => console.log('hi')}
-            className="my-5  rounded-full bg-palette-100 px-5 py-2 text-xl font-[500] text-white hover:bg-palette-300 hover:text-white lg:hidden lg:text-lg"
+            className="my-5 mb-12 rounded-full bg-palette-100 px-5 py-2 text-xl font-[500] text-white hover:bg-palette-300 hover:text-white lg:hidden lg:text-lg"
           >
             VIEW PORTFOLIO
           </button>

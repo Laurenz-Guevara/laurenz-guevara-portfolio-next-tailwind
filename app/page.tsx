@@ -7,6 +7,7 @@ export default function Home() {
       <Hero />
       <div className="h-10 bg-palette-200"></div>
       <Cliffcrafts />
+      <div className="h-10 bg-palette-100"></div>
     </>
   );
 }

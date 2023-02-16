@@ -7,3 +7,7 @@
     @apply text-palette-400;
   }
 }
+
+.min-h-safe {
+  min-height: -webkit-fill-available;
+}

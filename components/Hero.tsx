@@ -12,14 +12,15 @@ import blueElipse from '../assets/shapes/blue-elipse.svg';
 import arrowDown from '../assets/shapes/arrow-down.svg';
 
 function Hero() {
-  useEffect(() => {
-    const appHeight = () => {
-      const doc = document.documentElement;
-      doc.style.setProperty('--app-height', `${window.innerHeight}px`);
-    };
+  const appHeight = () => {
+    const doc = document.documentElement;
+    doc.style.setProperty('--app-height', `${window.innerHeight}px`);
+  };
+
+  if (typeof window !== 'undefined') {
     window.addEventListener('resize', appHeight);
     appHeight();
-  }, []);
+  }
 
   return (
     <main className=" mx-auto min-h-screen  max-w-screen-xl overflow-hidden">

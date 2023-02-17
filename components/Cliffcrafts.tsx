@@ -16,6 +16,16 @@ import cloudfunctions from '../assets/icons/cloud-functions.png';
 import github from '../assets/icons/github.png';
 import sanity from '../assets/icons/sanity.png';
 import typescript from '../assets/icons/typescript.png';
+import tekoBold from '../assets/fonts/teko-bold.png';
+import tekoRegular from '../assets/fonts/teko-regular.png';
+
+import { Teko } from '@next/font/google';
+
+const teko = Teko({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  display: 'swap',
+});
 
 function Cliffcrafts() {
   return (
@@ -60,12 +70,12 @@ function Cliffcrafts() {
           <h1 className="max-w-fit border-b-4 border-palette-200 text-2xl font-bold">
             Technology Stack
           </h1>
-          <div className="grid grid-cols-stack justify-between pt-3">
+          <div className="grid grid-cols-short justify-between pt-3 lg:grid-cols-stack">
             <div className="py-2 text-center">
               <Image
                 src={reactIcon}
                 alt="react logo"
-                className="md:max-h-18 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-14 lg:max-h-20"
+                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
               />
               <p className="text-xl font-bold">React</p>
             </div>
@@ -73,7 +83,7 @@ function Cliffcrafts() {
               <Image
                 src={sassIcon}
                 alt="sass logo"
-                className="md:max-h-18 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-14 lg:max-h-20"
+                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
               />
               <p className="text-xl font-bold">Sass</p>
             </div>
@@ -81,7 +91,7 @@ function Cliffcrafts() {
               <Image
                 src={expressIcon}
                 alt="express logo"
-                className="md:max-h-18 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-14 lg:max-h-20"
+                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
               />
               <p className="text-xl font-bold">Express.js</p>
             </div>
@@ -89,16 +99,15 @@ function Cliffcrafts() {
               <Image
                 src={stripeIcon}
                 alt="stripe logo"
-                className="md:max-h-18 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-14 lg:max-h-20"
+                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
               />
               <p className="text-xl font-bold">Stripe</p>
             </div>
-            {/*  */}
             <div className="py-2 text-center">
               <Image
                 src={figma}
                 alt="stripe logo"
-                className="md:max-h-18 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-14 lg:max-h-20"
+                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
               />
               <p className="text-xl font-bold">Figma</p>
             </div>
@@ -106,7 +115,7 @@ function Cliffcrafts() {
               <Image
                 src={firebase}
                 alt="stripe logo"
-                className="md:max-h-18 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-14 lg:max-h-20"
+                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
               />
               <p className="text-xl font-bold">Firebase</p>
             </div>
@@ -114,15 +123,15 @@ function Cliffcrafts() {
               <Image
                 src={cloudfunctions}
                 alt="stripe logo"
-                className="md:max-h-18 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-14 lg:max-h-20"
+                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
               />
-              <p className="text-xl font-bold">Cloud Functions</p>
+              <p className="text-xl font-bold">Funtions</p>
             </div>
             <div className="py-2 text-center">
               <Image
                 src={github}
                 alt="stripe logo"
-                className="md:max-h-18 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-14 lg:max-h-20"
+                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
               />
               <p className="text-xl font-bold">Github</p>
             </div>
@@ -130,7 +139,7 @@ function Cliffcrafts() {
               <Image
                 src={sanity}
                 alt="stripe logo"
-                className="md:max-h-18 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-14 lg:max-h-20"
+                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
               />
               <p className="text-xl font-bold">Sanity</p>
             </div>
@@ -138,7 +147,7 @@ function Cliffcrafts() {
               <Image
                 src={typescript}
                 alt="stripe logo"
-                className="md:max-h-18 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-14 lg:max-h-20"
+                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
               />
               <p className="text-xl font-bold">Typescript</p>
             </div>
@@ -150,30 +159,37 @@ function Cliffcrafts() {
           </h1>
           <div className="flex justify-between pt-4 font-bold lg:pt-8">
             <div>
-              <div className="h-20 w-20 rounded-full bg-palette-400 shadow-main lg:h-40 lg:w-40"></div>
+              <div className="h-20 w-20 rounded-full bg-palette-400 shadow-main lg:h-28 lg:w-28"></div>
               <p className="py-2 text-center">#232323</p>
             </div>
             <div>
-              <div className="h-20 w-20 rounded-full bg-palette-200 shadow-main lg:h-40 lg:w-40"></div>
+              <div className="h-20 w-20 rounded-full bg-palette-200 shadow-main lg:h-28 lg:w-28"></div>
               <p className="py-2 text-center"> #da291d</p>
             </div>
             <div>
-              <div className="h-20 w-20 rounded-full bg-white shadow-main lg:h-40 lg:w-40"></div>
+              <div className="h-20 w-20 rounded-full bg-white shadow-main lg:h-28 lg:w-28"></div>
               <p className="py-2 text-center">#ffffff</p>
             </div>
           </div>
-          <section className="my-8 grid grid-cols-duo gap-x-4 border-x-2 border-dashed">
-            <div className="mx-auto font-bold">
-              <h1>Teko Bold</h1>
-              <p>a b c d e f g h i j k l m</p>
-              <p>n o p q r s t u v w x y z</p>
-              <p>1 2 3 4 5 6 7 8 9</p>
+          <section
+            className={
+              teko.className +
+              ` my-8 grid gap-x-4 border-x-2 border-dashed sm:grid-cols-duo md:my-14`
+            }
+          >
+            <div>
+              <Image
+                src={tekoBold}
+                alt="text bold typeface"
+                className="mx-auto px-6 pb-4 sm:pb-0"
+              />
             </div>
-            <div className="mx-auto min-w-full font-normal">
-              <h1>Teko Regular</h1>
-              <p>a b c d e f g h i j k l m</p>
-              <p>n o p q r s t u v w x y z</p>
-              <p>1 2 3 4 5 6 7 8 9</p>
+            <div>
+              <Image
+                src={tekoRegular}
+                alt="teko regular typeface"
+                className="mx-auto px-6"
+              />
             </div>
           </section>
         </div>

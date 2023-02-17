@@ -19,7 +19,8 @@ module.exports = {
       },
     },
     gridTemplateColumns: {
-      stack: 'repeat(4,auto)',
+      stack: 'repeat(5,auto)',
+      short: 'repeat(4,auto)',
       duo: '1fr 1fr',
     },
     boxShadow: {

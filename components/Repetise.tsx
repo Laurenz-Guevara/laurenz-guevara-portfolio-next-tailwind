@@ -4,70 +4,67 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-import cliffcrafts from '../assets/preview/cliffcrafts.png';
+import repetise from '../assets/preview/repetise.png';
 
 import reactIcon from '../assets/icons/react.png';
 import sassIcon from '../assets/icons/sass.png';
-import expressIcon from '../assets/icons/express.png';
-import stripeIcon from '../assets/icons/stripe.png';
+import javascriptIcon from '../assets/icons/javascript.png';
 import figma from '../assets/icons/figma.png';
 import firebase from '../assets/icons/firebase.png';
-import cloudfunctions from '../assets/icons/cloud-functions.png';
 import github from '../assets/icons/github.png';
 import sanity from '../assets/icons/sanity.png';
-import typescript from '../assets/icons/typescript.png';
-import tekoBold from '../assets/fonts/teko-bold.png';
-import tekoRegular from '../assets/fonts/teko-regular.png';
+import ralewayBold from '../assets/fonts/raleway-bold.png';
+import ralewayRegular from '../assets/fonts/raleway-regular.png';
 
-import { Teko } from '@next/font/google';
-
-const teko = Teko({
-  subsets: ['latin'],
-  weight: ['400', '700'],
-  display: 'swap',
-});
-
-function Cliffcrafts() {
+function Repetise() {
   return (
     <section className="mx-auto max-w-screen-xl">
       <section className="px-8 lg:px-20">
         <div className="lg:wrap pt-10 lg:flex">
           <div>
             <Link
-              href="https://www.cliffcrafts.com"
+              href="https://repetise.com/welcome-to-repetise"
               target="_blank"
-              className="border-b-4 border-palette-200 text-2xl font-bold"
+              className="border-b-4 border-palette-700 text-2xl font-bold"
             >
-              Cliffcrafts
+              Repetise
             </Link>
             <p className="py-3 lg:pr-12">
-              Full stack React E-commerce site built using Typescript and SaSS,
-              backend with Express.js running a REST API on Firebase cloud
-              functions. Payment authentication with Stripe, CMS with Sanity.io.
+              React based project, styled with SaSS, using Firebase to provide
+              Authentication, Database, and deployment.
+            </p>
+            <p className="py-3 lg:pr-12">
+              This application was built to provide a selection of language
+              flashcards that would train the user with a spaced repetition
+              algorithm.
+            </p>
+            <p className="py-3 lg:pr-12">
+              As the user learns more vocabulary the frequency they would see
+              words they know would be reduced.
             </p>
             <Link
-              href="https://www.cliffcrafts.com"
+              href="https://repetise.com/welcome-to-repetise"
               target="_blank"
-              className="hidden rounded-xl bg-palette-200 px-5 py-1 text-lg font-[500] text-white hover:bg-palette-300 lg:inline"
+              className="hidden rounded-xl bg-palette-700 px-5 py-1 text-lg font-[500] text-white hover:bg-palette-300 lg:inline"
             >
               Visit Site
             </Link>
           </div>
           <Image
-            src={cliffcrafts}
-            alt="cliffcrafts preview"
+            src={repetise}
+            alt="repetise preview"
             className="mb-5 border border-palette-500 shadow-main lg:w-6/12"
           />
           <Link
-            href="https://www.cliffcrafts.com"
+            href="https://repetise.com/welcome-to-repetise"
             target="_blank"
-            className="rounded-xl bg-palette-200 px-5 py-1 text-lg font-[500] text-white hover:bg-palette-300 lg:hidden"
+            className="rounded-xl bg-palette-700 px-5 py-1 text-lg font-[500] text-white hover:bg-palette-300 lg:hidden"
           >
             Visit Site
           </Link>
         </div>
         <div className="pt-10">
-          <h1 className="max-w-fit border-b-4 border-palette-200 text-2xl font-bold">
+          <h1 className="max-w-fit border-b-4 border-palette-700 text-2xl font-bold">
             Technology Stack
           </h1>
           <div className="grid grid-cols-short justify-between pt-3 lg:grid-cols-stack">
@@ -81,27 +78,19 @@ function Cliffcrafts() {
             </div>
             <div className="py-2 text-center">
               <Image
-                src={sassIcon}
+                src={javascriptIcon}
                 alt="sass logo"
                 className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
               />
+              <p className="text-xl font-bold">Javascript</p>
+            </div>
+            <div className="py-2 text-center">
+              <Image
+                src={sassIcon}
+                alt="javascript logo"
+                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
+              />
               <p className="text-xl font-bold">Sass</p>
-            </div>
-            <div className="py-2 text-center">
-              <Image
-                src={expressIcon}
-                alt="express logo"
-                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
-              />
-              <p className="text-xl font-bold">Express.js</p>
-            </div>
-            <div className="py-2 text-center">
-              <Image
-                src={stripeIcon}
-                alt="stripe logo"
-                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
-              />
-              <p className="text-xl font-bold">Stripe</p>
             </div>
             <div className="py-2 text-center">
               <Image
@@ -114,18 +103,10 @@ function Cliffcrafts() {
             <div className="py-2 text-center">
               <Image
                 src={firebase}
-                alt="firebase logo"
+                alt="stripe logo"
                 className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
               />
               <p className="text-xl font-bold">Firebase</p>
-            </div>
-            <div className="py-2 text-center">
-              <Image
-                src={cloudfunctions}
-                alt="firebase cloud functions logo"
-                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
-              />
-              <p className="text-xl font-bold">Funtions</p>
             </div>
             <div className="py-2 text-center">
               <Image
@@ -143,28 +124,20 @@ function Cliffcrafts() {
               />
               <p className="text-xl font-bold">Sanity</p>
             </div>
-            <div className="py-2 text-center">
-              <Image
-                src={typescript}
-                alt="typescript logo"
-                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
-              />
-              <p className="text-xl font-bold">Typescript</p>
-            </div>
           </div>
         </div>
         <div className="pt-5">
-          <h1 className="max-w-fit border-b-4 border-palette-200 text-2xl font-bold">
+          <h1 className="max-w-fit border-b-4 border-palette-700 text-2xl font-bold">
             Design
           </h1>
           <div className="flex justify-between pt-4 font-bold lg:pt-8">
             <div>
-              <div className="h-20 w-20 rounded-full bg-palette-400 shadow-main lg:h-28 lg:w-28"></div>
-              <p className="py-2 text-center">#232323</p>
+              <div className="h-20 w-20 rounded-full bg-palette-800 shadow-main lg:h-28 lg:w-28"></div>
+              <p className="py-2 text-center">#333333</p>
             </div>
             <div>
-              <div className="h-20 w-20 rounded-full bg-palette-200 shadow-main lg:h-28 lg:w-28"></div>
-              <p className="py-2 text-center"> #da291d</p>
+              <div className="h-20 w-20 rounded-full bg-palette-700 shadow-main lg:h-28 lg:w-28"></div>
+              <p className="py-2 text-center"> #4ed4f8</p>
             </div>
             <div>
               <div className="h-20 w-20 rounded-full bg-white shadow-main lg:h-28 lg:w-28"></div>
@@ -174,14 +147,14 @@ function Cliffcrafts() {
           <section className="my-8 grid gap-x-4 border-x-2 border-dashed sm:grid-cols-duo md:my-14">
             <div>
               <Image
-                src={tekoBold}
+                src={ralewayBold}
                 alt="text bold typeface"
                 className="mx-auto px-6 pb-4 sm:pb-0"
               />
             </div>
             <div>
               <Image
-                src={tekoRegular}
+                src={ralewayRegular}
                 alt="teko regular typeface"
                 className="mx-auto px-6"
               />
@@ -193,4 +166,4 @@ function Cliffcrafts() {
   );
 }
 
-export default Cliffcrafts;
+export default Repetise;

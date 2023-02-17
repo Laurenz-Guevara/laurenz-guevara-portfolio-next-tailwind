@@ -9,10 +9,11 @@ import repetise from '../assets/preview/repetise.png';
 import reactIcon from '../assets/icons/react.png';
 import sassIcon from '../assets/icons/sass.png';
 import javascriptIcon from '../assets/icons/javascript.png';
-import figma from '../assets/icons/figma.png';
+import adobeXd from '../assets/icons/adobe-xd.png';
+import firestore from '../assets/icons/firestore.jpeg';
 import firebase from '../assets/icons/firebase.png';
+import firebaseAuth from '../assets/icons/fireauth.png';
 import github from '../assets/icons/github.png';
-import sanity from '../assets/icons/sanity.png';
 import ralewayBold from '../assets/fonts/raleway-bold.png';
 import ralewayRegular from '../assets/fonts/raleway-regular.png';
 
@@ -94,11 +95,11 @@ function Repetise() {
             </div>
             <div className="py-2 text-center">
               <Image
-                src={figma}
-                alt="figma logo"
+                src={adobeXd}
+                alt="adobe xd logo"
                 className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
               />
-              <p className="text-xl font-bold">Figma</p>
+              <p className="text-xl font-bold">Adobe XD</p>
             </div>
             <div className="py-2 text-center">
               <Image
@@ -110,19 +111,27 @@ function Repetise() {
             </div>
             <div className="py-2 text-center">
               <Image
+                src={firestore}
+                alt="firebase firestore logo"
+                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
+              />
+              <p className="text-xl font-bold">Firestore</p>
+            </div>
+            <div className="py-2 text-center">
+              <Image
+                src={firebaseAuth}
+                alt="firebase authentication logo"
+                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
+              />
+              <p className="text-xl font-bold">Auth</p>
+            </div>
+            <div className="py-2 text-center">
+              <Image
                 src={github}
                 alt="github logo"
                 className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
               />
               <p className="text-xl font-bold">Github</p>
-            </div>
-            <div className="py-2 text-center">
-              <Image
-                src={sanity}
-                alt="sanity logo"
-                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
-              />
-              <p className="text-xl font-bold">Sanity</p>
             </div>
           </div>
         </div>

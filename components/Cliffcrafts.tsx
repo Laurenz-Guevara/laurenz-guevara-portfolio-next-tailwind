@@ -11,6 +11,7 @@ import sassIcon from '../assets/icons/sass.png';
 import expressIcon from '../assets/icons/express.png';
 import stripeIcon from '../assets/icons/stripe.png';
 import figma from '../assets/icons/figma.png';
+import reduxIcon from '../assets/icons/redux.png';
 import firebase from '../assets/icons/firebase.png';
 import cloudfunctions from '../assets/icons/cloud-functions.png';
 import github from '../assets/icons/github.png';
@@ -81,11 +82,27 @@ function Cliffcrafts() {
             </div>
             <div className="py-2 text-center">
               <Image
+                src={typescript}
+                alt="typescript logo"
+                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
+              />
+              <p className="text-xl font-bold">Typescript</p>
+            </div>
+            <div className="py-2 text-center">
+              <Image
                 src={sassIcon}
                 alt="sass logo"
                 className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
               />
               <p className="text-xl font-bold">Sass</p>
+            </div>
+            <div className="py-2 text-center">
+              <Image
+                src={reduxIcon}
+                alt="sass logo"
+                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
+              />
+              <p className="text-xl font-bold">Redux</p>
             </div>
             <div className="py-2 text-center">
               <Image
@@ -142,14 +159,6 @@ function Cliffcrafts() {
                 className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
               />
               <p className="text-xl font-bold">Sanity</p>
-            </div>
-            <div className="py-2 text-center">
-              <Image
-                src={typescript}
-                alt="typescript logo"
-                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
-              />
-              <p className="text-xl font-bold">Typescript</p>
             </div>
           </div>
         </div>

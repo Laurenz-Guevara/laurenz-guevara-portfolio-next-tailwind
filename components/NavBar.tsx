@@ -1,33 +1,57 @@
 'use client';
 
+import { IconProp } from '@fortawesome/fontawesome-svg-core';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
-import React from 'react';
+import React, { useState } from 'react';
 
 function NavBar() {
+  const [openBurger, setOpenBurger] = useState(false);
+
   return (
-    <header className="px-8 lg:px-20">
-      <div className="mx-auto flex max-w-screen-xl flex-col py-6 text-xl font-bold lg:flex-row lg:items-center lg:justify-between ">
-        <div className=" flex-row items-center justify-between lg:flex">
-          <h1 className="">Laurenz Guevara</h1>
+    <header
+      className={
+        openBurger
+          ? 'mb-6 rounded-b-[30px] px-8 shadow-nav lg:mb-0 lg:rounded-none lg:px-20 lg:shadow-none'
+          : 'mb-6 px-8 lg:mb-0 lg:px-20'
+      }
+    >
+      <div className="mx-auto flex max-w-screen-xl flex-col pt-3 pb-2 text-2xl font-bold lg:flex-row lg:items-center lg:justify-between lg:py-6 ">
+        <div className=" flex flex-row items-center justify-between">
+          <h1>Laurenz Guevara</h1>
+          <FontAwesomeIcon
+            className="lg:hidden"
+            icon={faBars as IconProp}
+            height={30}
+            width={24}
+            onClick={() => {
+              setOpenBurger(!openBurger);
+            }}
+          />
         </div>
-        <nav className="flex hidden flex-wrap justify-center text-center lg:block [&>a]:w-full [&>a]:py-2 lg:[&>a]:px-4">
-          <Link href="/">Projects</Link>
-          <Link href="/">Experience</Link>
-          <Link href="/">About Me</Link>
+        <nav
+          className={
+            openBurger
+              ? 'flex flex-wrap justify-center pt-4 text-center lg:block lg:bg-white [&>a]:w-full [&>a]:py-2 lg:[&>a]:px-4'
+              : 'hidden flex-wrap justify-center text-center lg:block [&>a]:w-full [&>a]:py-2 lg:[&>a]:px-4'
+          }
+        >
+          <a
+            href="#cliffcrafts"
+            onClick={() => {
+              setOpenBurger(false);
+            }}
+          >
+            Projects
+          </a>
           <Link
             href="https://drive.google.com/file/d/1jxxvBdGwJ3iObvrrEutKBmouJF5a9-Wk/view?usp=sharing"
             target="_blank"
           >
             Resume
           </Link>
-          <button
-            className="pt-2 md:p-0"
-            onClick={() => {
-              console.log('Hi');
-            }}
-          >
-            Contact Me
-          </button>
+          <Link href="mailto:laurenzguevara@outlook.com">Contact Me</Link>
         </nav>
       </div>
     </header>

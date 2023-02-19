@@ -29,6 +29,8 @@ module.exports = {
     },
     boxShadow: {
       main: '0 5px 20px 0 rgb(0 0 0 / 33%)',
+      nav: ' 0 4px 15px rgb(55 81 125 / 20%)',
+      none: '0',
     },
   },
   plugins: [],

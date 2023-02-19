@@ -5,5 +5,6 @@
 @layer base {
   html {
     @apply text-palette-400;
+    scroll-behavior: smooth;
   }
 }

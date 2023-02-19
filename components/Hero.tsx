@@ -15,7 +15,7 @@ function Hero() {
   return (
     <main className="mx-auto min-h-screen max-w-screen-xl overflow-hidden">
       <NavBar />
-      <div className="place-content-center px-8 lg:grid lg:min-h-[calc(100vh_-_83px)] lg:grid-cols-duo lg:grid-rows-1 lg:px-20">
+      <div className="mb-14 place-content-center px-8 lg:mb-0 lg:grid lg:min-h-[calc(100vh_-_83px)] lg:grid-cols-duo lg:grid-rows-1 lg:px-20">
         <div className="self-center">
           <Image
             src={redBubble}
@@ -28,12 +28,12 @@ function Hero() {
           <h1 className="px-8 pt-4 pb-10 text-center text-3xl font-bold md:text-4xl lg:py-0 lg:px-0 lg:pr-6 lg:text-start lg:text-5xl xl:pr-0 xl:text-6xl">
             Providing fantastic digital experiences.
           </h1>
-          <button
-            onClick={() => console.log('hi')}
-            className="my-5 hidden rounded-full bg-palette-100 px-5 py-1 text-lg font-[500] text-white hover:bg-palette-300 lg:block lg:text-xl"
+          <a
+            href="#cliffcrafts"
+            className="my-5 hidden w-min whitespace-nowrap rounded-full bg-palette-100 px-5 py-1 text-lg font-[500] text-white hover:bg-palette-300 lg:block lg:text-xl"
           >
             VIEW PORTFOLIO
-          </button>
+          </a>
         </div>
         <div className="-mb-10 ml-[27px] flex justify-center self-end lg:ml-0">
           <div>
@@ -64,15 +64,15 @@ function Hero() {
           </div>
         </div>
         <div className="pt-4 text-center">
-          <p className="text-lg font-bold lg:hidden">
+          <p className="mb-4 text-lg font-bold lg:hidden">
             Web Developer, Tinkerer and Mad Scientist
           </p>
-          <button
-            onClick={() => console.log('hi')}
+          <a
+            href="#cliffcrafts"
             className="my-5 mb-12 rounded-full bg-palette-100 px-5 py-2 text-xl font-[500] text-white hover:bg-palette-300 hover:text-white lg:hidden lg:text-lg"
           >
             VIEW PORTFOLIO
-          </button>
+          </a>
         </div>
         <div className="col-span-2 hidden text-center text-xl font-bold lg:block">
           <h1>See More</h1>

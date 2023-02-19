@@ -8,11 +8,11 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <div className="h-10 bg-palette-200"></div>
+      <div id="cliffcrafts" className="h-10 bg-palette-200"></div>
       <Cliffcrafts />
-      <div className="h-10 bg-palette-700"></div>
+      <div id="repetise" className="h-10 bg-palette-700"></div>
       <Repetise />
-      <div className="h-10 bg-palette-100"></div>
+      <div id="ventus-verba" className="h-10 bg-palette-100"></div>
       <VentusVerba />
       <Footer />
     </>

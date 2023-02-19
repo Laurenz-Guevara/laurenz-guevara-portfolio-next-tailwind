@@ -20,14 +20,6 @@ import typescript from '../assets/icons/typescript.png';
 import tekoBold from '../assets/fonts/teko-bold.png';
 import tekoRegular from '../assets/fonts/teko-regular.png';
 
-import { Teko } from '@next/font/google';
-
-const teko = Teko({
-  subsets: ['latin'],
-  weight: ['400', '700'],
-  display: 'swap',
-});
-
 function Cliffcrafts() {
   return (
     <section className="mx-auto max-w-screen-xl">
@@ -166,17 +158,17 @@ function Cliffcrafts() {
           <h1 className="max-w-fit border-b-4 border-palette-200 text-2xl font-bold">
             Design
           </h1>
-          <div className="flex justify-between pt-4 font-bold lg:pt-8">
+          <div className="flex flex-wrap justify-between pt-4 font-bold lg:pt-8">
             <div>
-              <div className="h-20 w-20 rounded-full bg-palette-400 shadow-main lg:h-28 lg:w-28"></div>
+              <div className="mx-1 h-20 w-20 rounded-full bg-palette-400 shadow-main lg:h-28 lg:w-28"></div>
               <p className="py-2 text-center">#232323</p>
             </div>
             <div>
-              <div className="h-20 w-20 rounded-full bg-palette-200 shadow-main lg:h-28 lg:w-28"></div>
+              <div className="mx-1 h-20 w-20 rounded-full bg-palette-200 shadow-main lg:h-28 lg:w-28"></div>
               <p className="py-2 text-center"> #da291d</p>
             </div>
             <div>
-              <div className="h-20 w-20 rounded-full bg-white shadow-main lg:h-28 lg:w-28"></div>
+              <div className="mx-1 h-20 w-20 rounded-full bg-white shadow-main lg:h-28 lg:w-28"></div>
               <p className="py-2 text-center">#ffffff</p>
             </div>
           </div>

@@ -35,7 +35,7 @@ function Hero() {
             VIEW PORTFOLIO
           </a>
         </div>
-        <div className="-mb-10 ml-[27px] flex justify-center self-end lg:ml-0">
+        <div className="-mb-10 ml-[27px] flex justify-center self-end xsm:mb-1 lg:ml-0">
           <div>
             <Image
               src={mockup}
@@ -46,19 +46,19 @@ function Hero() {
             <Image
               src={blueElipse}
               alt="Mockup Front"
-              className="relative bottom-36 right-14 -z-10"
+              className="relative bottom-36 right-14 -z-10 xsm:hidden"
             />
           </div>
           <div className="-mt-36">
             <Image
               src={redElipse}
               alt="Mockup Front"
-              className="relative -right-7 top-36  -z-10"
+              className="relative -right-7 top-36  -z-10 xsm:hidden"
             />
             <Image
               src={mockupSide}
               alt="Mockup Front"
-              className="z-10"
+              className="z-10 xsm:hidden"
               width={177}
             />
           </div>

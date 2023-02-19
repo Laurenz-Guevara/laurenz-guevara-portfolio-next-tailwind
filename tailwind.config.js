@@ -25,12 +25,22 @@ module.exports = {
     gridTemplateColumns: {
       stack: 'repeat(5,auto)',
       short: 'repeat(4,auto)',
+      xshort: 'repeat(2,auto)',
       duo: '1fr 1fr',
     },
     boxShadow: {
       main: '0 5px 20px 0 rgb(0 0 0 / 33%)',
       nav: ' 0 4px 15px rgb(55 81 125 / 20%)',
       none: '0',
+    },
+
+    screens: {
+      xsm: { max: '385px' },
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1536px',
     },
   },
   plugins: [],

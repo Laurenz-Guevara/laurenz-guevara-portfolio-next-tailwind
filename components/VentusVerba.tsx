@@ -66,7 +66,7 @@ function VentusVerba() {
           <h1 className="max-w-fit border-b-4 border-palette-100 text-2xl font-bold">
             Technology Stack
           </h1>
-          <div className="grid grid-cols-short justify-between pt-3 lg:grid-cols-stack">
+          <div className="grid grid-cols-short justify-between pt-3 xsm:grid-cols-xshort lg:grid-cols-stack">
             <div className="py-2 text-center">
               <Image
                 src={reactIcon}

@@ -13,7 +13,7 @@ import arrowDown from '../assets/shapes/arrow-down.svg';
 
 function Hero() {
   return (
-    <main className="mx-auto min-h-screen  max-w-screen-xl overflow-hidden">
+    <main className="mx-auto h-[100svh] max-w-screen-xl overflow-hidden">
       <NavBar />
       <div className="place-content-center px-8 lg:grid lg:min-h-[calc(100vh_-_83px)] lg:grid-cols-duo lg:grid-rows-1 lg:px-20">
         <div className="self-center">

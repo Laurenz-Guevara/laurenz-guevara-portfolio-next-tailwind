@@ -14,7 +14,12 @@ function NavBar() {
           <Link href="/">Projects</Link>
           <Link href="/">Experience</Link>
           <Link href="/">About Me</Link>
-          <Link href="/">Resume</Link>
+          <Link
+            href="https://drive.google.com/file/d/1jxxvBdGwJ3iObvrrEutKBmouJF5a9-Wk/view?usp=sharing"
+            target="_blank"
+          >
+            Resume
+          </Link>
           <button
             className="pt-2 md:p-0"
             onClick={() => {

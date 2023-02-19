@@ -2,6 +2,7 @@ import Hero from '@/components/Hero';
 import Cliffcrafts from '@/components/Cliffcrafts';
 import VentusVerba from '@/components/VentusVerba';
 import Repetise from '@/components/Repetise';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Repetise />
       <div className="h-10 bg-palette-100"></div>
       <VentusVerba />
+      <Footer />
     </>
   );
 }

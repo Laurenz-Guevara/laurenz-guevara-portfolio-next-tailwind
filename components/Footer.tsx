@@ -43,7 +43,7 @@ function Footer() {
             <h1 className="flex justify-between py-1 text-2xl">Other</h1>
             <Link
               className="flex items-center py-1"
-              href="https://drive.google.com/file/d/1jxxvBdGwJ3iObvrrEutKBmouJF5a9-Wk/view"
+              href="https://drive.google.com/file/d/1_t_9bJkklSoHVZNUOepd_WSDRFRP7gkP/view"
               target="_blank"
             >
               <FontAwesomeIcon

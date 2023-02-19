@@ -46,7 +46,7 @@ function NavBar() {
             Projects
           </a>
           <Link
-            href="https://drive.google.com/file/d/1jxxvBdGwJ3iObvrrEutKBmouJF5a9-Wk/view?usp=sharing"
+            href="https://drive.google.com/file/d/1_t_9bJkklSoHVZNUOepd_WSDRFRP7gkP/view"
             target="_blank"
           >
             Resume

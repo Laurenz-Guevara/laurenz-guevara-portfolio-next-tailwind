@@ -3,6 +3,7 @@ import Cliffcrafts from '@/components/Cliffcrafts';
 import VentusVerba from '@/components/VentusVerba';
 import Repetise from '@/components/Repetise';
 import Footer from '@/components/Footer';
+import LaurenzGuevara from '@/components/LaurenzGuevara';
 
 export default function Home() {
   return (
@@ -14,6 +15,8 @@ export default function Home() {
       <Repetise />
       <div id="ventus-verba" className="h-10 bg-palette-100"></div>
       <VentusVerba />
+      <div id="laurenz-guevara" className="h-10 bg-palette-300"></div>
+      <LaurenzGuevara />
       <Footer />
     </>
   );

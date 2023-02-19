@@ -29,7 +29,7 @@ function Cliffcrafts() {
             <Link
               href="https://www.cliffcrafts.com"
               target="_blank"
-              className="border-b-4 border-palette-200 text-2xl font-bold"
+              className="border-b-4 border-palette-200 text-2xl font-bold hover:opacity-70"
             >
               Cliffcrafts
             </Link>

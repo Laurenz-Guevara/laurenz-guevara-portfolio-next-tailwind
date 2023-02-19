@@ -25,7 +25,7 @@ function VentusVerba() {
             <Link
               href="https://ventus-verba.web.app"
               target="_blank"
-              className="border-b-4 border-palette-100 text-2xl font-bold"
+              className="border-b-4 border-palette-100 text-2xl font-bold hover:opacity-70"
             >
               Ventus Verba
             </Link>

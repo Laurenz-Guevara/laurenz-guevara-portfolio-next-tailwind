@@ -18,21 +18,21 @@ function Footer() {
           <div className="pb-4 text-white  lg:p-0">
             <h1 className="flex justify-between py-1 text-2xl">Live Sites</h1>
             <Link
-              className="block py-1"
+              className="block py-1 hover:opacity-70"
               href="https://cliffcrafts.com"
               target="_blank"
             >
               Cliffcrafts
             </Link>
             <Link
-              className="block py-1"
+              className="block py-1 hover:opacity-70"
               href="https://repetise.com"
               target="_blank"
             >
               Repetise
             </Link>
             <Link
-              className="block py-1"
+              className="block py-1 hover:opacity-70"
               href="https://ventus-verba.web.app"
               target="_blank"
             >
@@ -42,7 +42,7 @@ function Footer() {
           <div className="pb-4 text-white lg:p-0 ">
             <h1 className="flex justify-between py-1 text-2xl">Other</h1>
             <Link
-              className="flex items-center py-1"
+              className="flex items-center py-1 hover:opacity-70"
               href="https://drive.google.com/file/d/1_t_9bJkklSoHVZNUOepd_WSDRFRP7gkP/view"
               target="_blank"
             >
@@ -53,7 +53,7 @@ function Footer() {
               Resume
             </Link>
             <Link
-              className="flex items-center py-1"
+              className="flex items-center py-1 hover:opacity-70"
               href="https://github.com/Laurenz-Guevara"
               target="_blank"
             >
@@ -67,7 +67,7 @@ function Footer() {
           <div className="pb-4 text-white lg:p-0 ">
             <h1 className="flex justify-between py-1 text-2xl">Contact Me</h1>
             <Link
-              className="flex items-center py-1"
+              className="flex items-center py-1 hover:opacity-70"
               href="mailto:laurenzguevara@outlook.com"
             >
               <FontAwesomeIcon
@@ -77,7 +77,7 @@ function Footer() {
               Email
             </Link>
             <Link
-              className="flex items-center py-1"
+              className="flex items-center py-1 hover:opacity-70"
               href="https://www.linkedin.com/in/laurenzguevara"
               target="_blank"
             >

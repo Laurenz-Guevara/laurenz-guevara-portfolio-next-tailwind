@@ -26,7 +26,7 @@ function Repetise() {
             <Link
               href="https://repetise.com/welcome-to-repetise"
               target="_blank"
-              className="border-b-4 border-palette-700 text-2xl font-bold"
+              className="border-b-4 border-palette-700 text-2xl font-bold hover:opacity-70"
             >
               Repetise
             </Link>

@@ -22,13 +22,12 @@ function LaurenzGuevara() {
       <section className="px-8 lg:px-20">
         <div className="lg:wrap pt-10 lg:flex">
           <div>
-            <Link
-              href="https://www.laurenzguevara.com"
-              target="_blank"
-              className="border-b-4 border-palette-300 text-2xl font-bold"
+            <a
+              href="#splashpage"
+              className="border-b-4 border-palette-300 text-2xl font-bold hover:opacity-70"
             >
               Portfolio
-            </Link>
+            </a>
             <p className="py-3 lg:pr-12">
               Portfolio built with Next.js and styled using tailwind.
             </p>
@@ -39,7 +38,7 @@ function LaurenzGuevara() {
             </p>
             <a
               href="#splashpage"
-              className="hidden rounded-xl bg-palette-300 px-5 py-1 text-lg font-[500] text-white hover:bg-palette-300 lg:inline"
+              className="hidden rounded-xl bg-palette-300 px-5 py-1 text-lg font-[500] text-white hover:opacity-90 lg:inline"
             >
               Back To Top
             </a>
@@ -49,13 +48,12 @@ function LaurenzGuevara() {
             alt="ventus verba preview"
             className="mb-5 border border-palette-500 shadow-main lg:w-6/12"
           />
-          <Link
-            href="https://ventus-verba.web.app/"
-            target="_blank"
-            className="rounded-xl bg-palette-300 px-5 py-1 text-lg font-[500] text-white hover:bg-palette-300 lg:hidden"
+          <a
+            href="#splashpage"
+            className="rounded-xl bg-palette-300 px-5 py-1 text-lg font-[500] text-white hover:opacity-90 lg:hidden"
           >
             Back To Top
-          </Link>
+          </a>
         </div>
         <div className="pt-10">
           <h1 className="max-w-fit border-b-4 border-palette-300 text-2xl font-bold">

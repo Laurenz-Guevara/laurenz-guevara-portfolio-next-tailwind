@@ -13,11 +13,11 @@ function NavBar() {
     <header
       className={
         openBurger
-          ? 'mb-6 rounded-b-[30px] px-8 shadow-nav lg:mb-0 lg:rounded-none lg:px-20 lg:shadow-none'
+          ? 'mb-6 rounded-b-[30px] px-8 shadow-nav transition-all duration-300 lg:mb-0 lg:rounded-none lg:px-20 lg:shadow-none'
           : 'mb-6 px-8 lg:mb-0 lg:px-20'
       }
     >
-      <div className="mx-auto flex max-w-screen-xl flex-col pt-3 pb-2 text-2xl font-bold lg:flex-row lg:items-center lg:justify-between lg:py-6 ">
+      <div className="mx-auto flex max-w-screen-xl flex-col pt-3 pb-2 text-2xl font-bold lg:flex-row lg:items-center lg:justify-between lg:py-6">
         <div className=" flex flex-row items-center justify-between">
           <h1>Laurenz Guevara</h1>
           <FontAwesomeIcon
@@ -38,6 +38,7 @@ function NavBar() {
           }
         >
           <a
+            className="hover:opacity-70"
             href="#cliffcrafts"
             onClick={() => {
               setOpenBurger(false);
@@ -46,12 +47,18 @@ function NavBar() {
             Projects
           </a>
           <Link
+            className="hover:opacity-70"
             href="https://drive.google.com/file/d/1_t_9bJkklSoHVZNUOepd_WSDRFRP7gkP/view"
             target="_blank"
           >
             Resume
           </Link>
-          <Link href="mailto:laurenzguevara@outlook.com">Contact Me</Link>
+          <Link
+            className="hover:opacity-70"
+            href="mailto:laurenzguevara@outlook.com"
+          >
+            Contact Me
+          </Link>
         </nav>
       </div>
     </header>

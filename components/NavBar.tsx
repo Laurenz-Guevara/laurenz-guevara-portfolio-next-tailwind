@@ -6,6 +6,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
 import React, { useState } from 'react';
 
+import { motion } from 'framer-motion';
+import { textLeft, textRight, textUp } from '../animation/motion';
+
 function NavBar() {
   const [openBurger, setOpenBurger] = useState(false);
 
@@ -19,18 +22,33 @@ function NavBar() {
     >
       <div className="mx-auto flex max-w-screen-xl flex-col pt-3 pb-2 text-2xl font-bold lg:flex-row lg:items-center lg:justify-between lg:py-6">
         <div className=" flex flex-row items-center justify-between">
-          <h1>Laurenz Guevara</h1>
-          <FontAwesomeIcon
-            className="lg:hidden"
-            icon={faBars as IconProp}
-            height={30}
-            width={24}
-            onClick={() => {
-              setOpenBurger(!openBurger);
-            }}
-          />
+          <motion.h1
+            animate={textRight.show}
+            initial={textRight.hidden}
+            transition={{ duration: 0.7 }}
+          >
+            Laurenz Guevara
+          </motion.h1>
+          <motion.div
+            animate={textLeft.show}
+            initial={textLeft.hidden}
+            transition={{ duration: 0.7 }}
+          >
+            <FontAwesomeIcon
+              className="lg:hidden"
+              icon={faBars as IconProp}
+              height={30}
+              width={24}
+              onClick={() => {
+                setOpenBurger(!openBurger);
+              }}
+            />
+          </motion.div>
         </div>
-        <nav
+        <motion.nav
+          animate={textLeft.show}
+          initial={textLeft.hidden}
+          transition={{ duration: 0.7 }}
           className={
             openBurger
               ? 'flex flex-wrap justify-center pt-4 text-center lg:block lg:bg-white [&>a]:w-full [&>a]:py-2 lg:[&>a]:px-4'
@@ -59,7 +77,7 @@ function NavBar() {
           >
             Contact Me
           </Link>
-        </nav>
+        </motion.nav>
       </div>
     </header>
   );

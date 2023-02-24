@@ -64,6 +64,15 @@ function NavBar() {
           >
             Projects
           </a>
+          <a
+            className="hover:opacity-70"
+            href="#experience"
+            onClick={() => {
+              setOpenBurger(false);
+            }}
+          >
+            Experience
+          </a>
           <Link
             className="hover:opacity-70"
             href="https://drive.google.com/file/d/1_t_9bJkklSoHVZNUOepd_WSDRFRP7gkP/view"

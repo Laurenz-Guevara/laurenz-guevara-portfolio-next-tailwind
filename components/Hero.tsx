@@ -65,6 +65,7 @@ function Hero() {
             animate={textUp.show}
             initial={textUp.hidden}
             transition={{ delay: 0.6, duration: 0.4 }}
+            className="smh:mb-[-120px]"
           >
             <Image
               src={mockup}

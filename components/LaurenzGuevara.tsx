@@ -9,6 +9,7 @@ import typescript from '../assets/icons/typescript.png';
 import figma from '../assets/icons/figma.png';
 import vercel from '../assets/icons/vercel.png';
 import github from '../assets/icons/github.png';
+import framerMotion from '../assets/icons/framer-motion.jpg';
 import robotoBold from '../assets/fonts/roboto-bold.png';
 import robotoRegular from '../assets/fonts/roboto-regular.png';
 
@@ -103,6 +104,14 @@ function LaurenzGuevara() {
                 className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
               />
               <p className="text-xl font-bold">Github</p>
+            </div>
+            <div className="py-2 text-center">
+              <Image
+                src={framerMotion}
+                alt="framer motion logo"
+                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
+              />
+              <p className="text-xl font-bold">Motion</p>
             </div>
           </div>
         </div>

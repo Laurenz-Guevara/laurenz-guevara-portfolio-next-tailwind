@@ -62,12 +62,13 @@ function WorkExperience() {
                   components on both React and .NET websites.
                 </li>
                 <li>
-                  Develop with RESTful API's and Content Management Systems such
-                  as Kentico and Kontent.
+                  Developed with RESTful API's and Content Management Systems
+                  such as Kentico and Kontent.
                 </li>
                 <li>
-                  Design and implement new features in accordance with clients
-                  both alone and with other developers in an agile environment.
+                  Designed and implemented new features in accordance with
+                  clients both alone and with other developers in an agile
+                  environment.
                 </li>
                 <li>
                   Collaborated with a UX designer and translated Adobe XD
@@ -83,10 +84,6 @@ function WorkExperience() {
                 <li>
                   Performed critical incident management and provided monthly
                   monitoring reports.
-                </li>
-                <li>
-                  Worked with tools such as Confluence, Kanban, Azure DevOps,
-                  Bitbucket, Jira, GitHub and Adobe Suite.
                 </li>
               </ul>
             </div>

@@ -6,6 +6,13 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import mmtdigital from '../assets/icons/mmtdigital.png';
+import gatsbyIcon from '../assets/icons/gatsby.png';
+import dotNetIcon from '../assets/icons/dotnet.svg';
+import htmlIcon from '../assets/icons/html.png';
+import cssIcon from '../assets/icons/css.png';
+import reactIcon from '../assets/icons/react.png';
+import javascriptIcon from '../assets/icons/javascript.png';
+import sassIcon from '../assets/icons/sass.png';
 
 function WorkExperience() {
   return (
@@ -84,6 +91,69 @@ function WorkExperience() {
             >
               Resume
             </Link>
+          </div>
+        </div>
+        <div className="pb-10">
+          <h1 className="max-w-fit border-b-4 border-palette-1000 text-2xl font-bold">
+            Technical Skills
+          </h1>
+          <div className="grid grid-cols-short justify-between pt-3 xsm:grid-cols-xshort lg:grid-cols-mstack">
+            <div className="py-2 text-center">
+              <Image
+                src={reactIcon}
+                alt="react logo"
+                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
+              />
+              <p className="text-xl font-bold">React</p>
+            </div>
+            <div className="py-2 text-center">
+              <Image
+                src={gatsbyIcon}
+                alt="gatsby logo"
+                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
+              />
+              <p className="text-xl font-bold">Gatsby</p>
+            </div>
+            <div className="py-2 text-center">
+              <Image
+                src={javascriptIcon}
+                alt="javascript logo"
+                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
+              />
+              <p className="text-xl font-bold">Javascript</p>
+            </div>
+            <div className="py-2 text-center">
+              <Image
+                src={htmlIcon}
+                alt="html logo"
+                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
+              />
+              <p className="text-xl font-bold">HTML</p>
+            </div>
+            <div className="py-2 text-center">
+              <Image
+                src={cssIcon}
+                alt="css logo"
+                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
+              />
+              <p className="text-xl font-bold">CSS</p>
+            </div>
+            <div className="py-2 text-center">
+              <Image
+                src={sassIcon}
+                alt="sass logo"
+                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
+              />
+              <p className="text-xl font-bold">Sass</p>
+            </div>
+            <div className="py-2 text-center">
+              <Image
+                src={dotNetIcon}
+                alt="dot net logo"
+                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
+              />
+              <p className="text-xl font-bold">.NET Core</p>
+            </div>
           </div>
         </div>
       </section>

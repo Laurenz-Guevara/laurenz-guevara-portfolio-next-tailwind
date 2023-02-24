@@ -24,7 +24,8 @@ module.exports = {
       },
     },
     gridTemplateColumns: {
-      stack: 'repeat(5,auto)',
+      mstack: 'repeat(6,auto)',
+      stack: 'repeat(7,auto)',
       short: 'repeat(4,auto)',
       xshort: 'repeat(2,auto)',
       duo: '1fr 1fr',

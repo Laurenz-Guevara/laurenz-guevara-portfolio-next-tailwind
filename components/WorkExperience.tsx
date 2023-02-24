@@ -77,12 +77,13 @@ function WorkExperience() {
                 </li>
               </ul>
             </div>
-            <a
-              href="#splashpage"
+            <Link
               className="rounded-xl bg-palette-1000 px-5 py-1 text-lg font-[500] text-white hover:opacity-90"
+              href="https://drive.google.com/file/d/1_t_9bJkklSoHVZNUOepd_WSDRFRP7gkP/view"
+              target="_blank"
             >
-              Back To Top
-            </a>
+              Resume
+            </Link>
           </div>
         </div>
       </section>

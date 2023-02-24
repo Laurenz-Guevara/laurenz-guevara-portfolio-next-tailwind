@@ -10,6 +10,8 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <div id="experience" className="h-10 bg-palette-1000"></div>
+      <WorkExperience />
       <div id="cliffcrafts" className="h-10 bg-palette-200"></div>
       <Cliffcrafts />
       <div id="repetise" className="h-10 bg-palette-700"></div>
@@ -18,8 +20,6 @@ export default function Home() {
       <VentusVerba />
       <div id="laurenz-guevara" className="h-10 bg-palette-300"></div>
       <LaurenzGuevara />
-      <div id="experience" className="h-10 bg-palette-1000"></div>
-      <WorkExperience />
       <Footer />
     </>
   );

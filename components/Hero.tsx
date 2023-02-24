@@ -48,16 +48,16 @@ function Hero() {
             transition={{ delay: 0.6, duration: 0.6 }}
             className="px-8 pt-4 pb-10 text-center text-3xl font-bold md:text-4xl lg:py-0 lg:px-0 lg:pr-6 lg:text-start lg:text-5xl xl:pr-0 xl:text-6xl"
           >
-            Providing fantastic digital experiences.
+            Laurenz Guevara Digital Portfolio
           </motion.h1>
           <motion.a
             animate={textUp.show}
             initial={textUp.hidden}
             transition={{ delay: 0.7, duration: 0.6 }}
-            href="#experience"
+            href="#cliffcrafts"
             className="my-5 hidden w-min whitespace-nowrap rounded-full bg-palette-100 px-5 py-1 text-lg font-[500] text-white hover:bg-palette-300 lg:block lg:text-xl"
           >
-            VIEW EXPERIENCE
+            VIEW PORTFOLIO
           </motion.a>
         </motion.div>
         <div className="-mb-10 ml-[27px] flex justify-center self-end xsm:mb-1 lg:ml-0">
@@ -108,10 +108,10 @@ function Hero() {
             Web Developer, Tinkerer and Mad Scientist
           </p>
           <a
-            href="#experience"
+            href="#cliffcrafts"
             className="my-5 mb-12 rounded-full bg-palette-100 px-5 py-2 text-xl font-[500] text-white hover:bg-palette-300 hover:text-white lg:hidden lg:text-lg"
           >
-            VIEW EXPERIENCE
+            VIEW PORTFOLIO
           </a>
         </motion.div>
         <motion.div
@@ -124,7 +124,7 @@ function Hero() {
           }}
           className="col-span-2 hidden text-center text-xl font-bold lg:block"
         >
-          <h1>View Portfolio</h1>
+          <h1>View Experience</h1>
           <Image
             src={arrowDown}
             alt="Mockup Front"

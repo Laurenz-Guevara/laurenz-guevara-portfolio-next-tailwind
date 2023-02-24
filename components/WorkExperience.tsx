@@ -52,6 +52,12 @@ function WorkExperience() {
                 the quality and productivity standards of MMT Digital teams.
               </li>
             </ul>
+            <a
+              href="#splashpage"
+              className="rounded-xl bg-palette-1000 px-5 py-1 text-lg font-[500] text-white hover:opacity-90"
+            >
+              Back To Top
+            </a>
           </div>
         </div>
       </section>

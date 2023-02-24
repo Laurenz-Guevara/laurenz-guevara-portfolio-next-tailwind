@@ -40,7 +40,7 @@ function WorkExperience() {
                 Developed with React, HTML, CSS, and JavaScript to build and
                 maintain websites for over 12 different clients. Communicated
                 with stakeholders and client teams on a weekly basis. Performed
-                deployments, CMS changes and monitoring reports
+                deployments, CMS changes and monitoring reports.
               </li>
               <li className="list-inside list-disc pt-4 text-xl font-bold">
                 Associate Engineer

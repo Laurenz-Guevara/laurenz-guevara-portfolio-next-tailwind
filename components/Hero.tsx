@@ -124,7 +124,9 @@ function Hero() {
           }}
           className="col-span-2 hidden text-center text-xl font-bold lg:block"
         >
-          <h1>View Experience</h1>
+          <a href="#experience" className="hover:opacity-70">
+            View Experience
+          </a>
           <Image
             src={arrowDown}
             alt="Mockup Front"

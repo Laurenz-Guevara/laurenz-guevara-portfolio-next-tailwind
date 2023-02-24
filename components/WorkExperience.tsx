@@ -13,6 +13,12 @@ import cssIcon from '../assets/icons/css.png';
 import reactIcon from '../assets/icons/react.png';
 import javascriptIcon from '../assets/icons/javascript.png';
 import sassIcon from '../assets/icons/sass.png';
+import adobeXd from '../assets/icons/adobe-xd.png';
+import jiraIcon from '../assets/icons/jira.png';
+import azureIcon from '../assets/icons/azure.webp';
+import bitbucketIcon from '../assets/icons/bitbucket.jpg';
+import kenticoIcon from '../assets/icons/kentico.png';
+import kontentIcon from '../assets/icons/kontent.webp';
 
 function WorkExperience() {
   return (
@@ -153,6 +159,46 @@ function WorkExperience() {
                 className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
               />
               <p className="text-xl font-bold">.NET Core</p>
+            </div>
+            <div className="py-2 text-center">
+              <Image
+                src={jiraIcon}
+                alt="jira logo"
+                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
+              />
+              <p className="text-xl font-bold">Jira</p>
+            </div>
+            <div className="py-2 text-center">
+              <Image
+                src={azureIcon}
+                alt="azure logo"
+                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
+              />
+              <p className="text-xl font-bold">Azure</p>
+            </div>
+            <div className="py-2 text-center">
+              <Image
+                src={bitbucketIcon}
+                alt="bitbucket logo"
+                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
+              />
+              <p className="text-xl font-bold">Bitbucket</p>
+            </div>
+            <div className="py-2 text-center">
+              <Image
+                src={kenticoIcon}
+                alt="kentico logo"
+                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
+              />
+              <p className="text-xl font-bold">Kentico</p>
+            </div>
+            <div className="py-2 text-center">
+              <Image
+                src={kontentIcon}
+                alt="kontent logo"
+                className="md:max-h-18 lg:max-h-13 mx-auto mb-1 max-h-10 w-[unset] sm:max-h-12"
+              />
+              <p className="text-xl font-bold">Kontent</p>
             </div>
           </div>
         </div>

@@ -21,7 +21,7 @@ function VentusVerba() {
     <section className="mx-auto max-w-screen-xl">
       <section className="px-8 lg:px-20">
         <div className="lg:wrap pt-10 lg:flex">
-          <div>
+          <div className="lg:text-xl">
             <Link
               href="https://ventus-verba.web.app"
               target="_blank"

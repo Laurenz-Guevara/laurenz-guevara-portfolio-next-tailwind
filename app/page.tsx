@@ -4,6 +4,7 @@ import VentusVerba from '@/components/VentusVerba';
 import Repetise from '@/components/Repetise';
 import Footer from '@/components/Footer';
 import LaurenzGuevara from '@/components/LaurenzGuevara';
+import WorkExperience from '@/components/WorkExperience';
 
 export default function Home() {
   return (
@@ -17,6 +18,8 @@ export default function Home() {
       <VentusVerba />
       <div id="laurenz-guevara" className="h-10 bg-palette-300"></div>
       <LaurenzGuevara />
+      <div id="experience" className="h-10 bg-palette-1000"></div>
+      <WorkExperience />
       <Footer />
     </>
   );

@@ -1,7 +1,4 @@
-'use client';
-
 import React from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
 
 import laurenzGuevara from '../assets/preview/laurenz-guevara.png';
@@ -12,7 +9,6 @@ import typescript from '../assets/icons/typescript.png';
 import figma from '../assets/icons/figma.png';
 import vercel from '../assets/icons/vercel.png';
 import github from '../assets/icons/github.png';
-import sanity from '../assets/icons/sanity.png';
 import robotoBold from '../assets/fonts/roboto-bold.png';
 import robotoRegular from '../assets/fonts/roboto-regular.png';
 
@@ -21,7 +17,7 @@ function LaurenzGuevara() {
     <section className="mx-auto max-w-screen-xl">
       <section className="px-8 lg:px-20">
         <div className="lg:wrap pt-10 lg:flex">
-          <div>
+          <div className="lg:text-xl">
             <a
               href="#splashpage"
               className="border-b-4 border-palette-300 text-2xl font-bold hover:opacity-70"

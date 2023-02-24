@@ -54,10 +54,10 @@ function Hero() {
             animate={textUp.show}
             initial={textUp.hidden}
             transition={{ delay: 0.7, duration: 0.6 }}
-            href="#cliffcrafts"
+            href="#experience"
             className="my-5 hidden w-min whitespace-nowrap rounded-full bg-palette-100 px-5 py-1 text-lg font-[500] text-white hover:bg-palette-300 lg:block lg:text-xl"
           >
-            VIEW PORTFOLIO
+            VIEW EXPERIENCE
           </motion.a>
         </motion.div>
         <div className="-mb-10 ml-[27px] flex justify-center self-end xsm:mb-1 lg:ml-0">
@@ -110,16 +110,20 @@ function Hero() {
             href="#cliffcrafts"
             className="my-5 mb-12 rounded-full bg-palette-100 px-5 py-2 text-xl font-[500] text-white hover:bg-palette-300 hover:text-white lg:hidden lg:text-lg"
           >
-            VIEW PORTFOLIO
+            VIEW EXPERIENCE
           </a>
         </motion.div>
         <motion.div
           animate={textDown.show}
           initial={textDown.hidden}
-          transition={{ delay: 1.2, duration: 0.7 }}
+          transition={{
+            delay: 1.2,
+            type: 'spring',
+            stiffness: 200,
+          }}
           className="col-span-2 hidden text-center text-xl font-bold lg:block"
         >
-          <h1>See More</h1>
+          <h1>View Portfolio</h1>
           <Image
             src={arrowDown}
             alt="Mockup Front"

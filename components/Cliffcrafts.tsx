@@ -33,7 +33,7 @@ function Cliffcrafts() {
             >
               Cliffcrafts
             </Link>
-            <p className="py-3 lg:pr-12">
+            <p className="py-3 lg:pr-12 lg:text-xl">
               Full stack React E-commerce site built using Typescript and SaSS,
               backend with Express.js running a REST API on Firebase cloud
               functions. Payment authentication with Stripe, CMS with Sanity.io.

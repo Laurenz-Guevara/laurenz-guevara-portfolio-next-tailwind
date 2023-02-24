@@ -20,7 +20,7 @@ function NavBar() {
           : 'mb-6 px-8 lg:mb-0 lg:px-20'
       }
     >
-      <div className="mx-auto flex max-w-screen-xl flex-col pt-3 pb-2 text-2xl font-bold lg:flex-row lg:items-center lg:justify-between lg:py-6">
+      <div className="z-10 mx-auto flex max-w-screen-xl flex-col pt-3 pb-2 text-2xl font-bold lg:flex-row lg:items-center lg:justify-between lg:py-6">
         <div className=" flex flex-row items-center justify-between">
           <motion.h1
             animate={textRight.show}

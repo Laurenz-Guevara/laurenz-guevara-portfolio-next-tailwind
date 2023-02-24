@@ -33,11 +33,19 @@ function Cliffcrafts() {
             >
               Cliffcrafts
             </Link>
-            <p className="py-3 lg:pr-12 lg:text-xl">
-              Full stack React E-commerce site built using Typescript and SaSS,
-              backend with Express.js running a REST API on Firebase cloud
-              functions. Payment authentication with Stripe, CMS with Sanity.io.
-            </p>
+            <div className="max-w-screen-lg pb-3 lg:pr-12 lg:text-xl [&>h1]:pb-1 [&>h1]:pt-3 [&>h1]:text-xl [&>h1]:font-bold">
+              <p className="pt-3">
+                Developed with React, HTML, CSS/SCSS, and JavaScript to build
+                and maintain websites for over 12 different clients.
+                Communicated with stakeholders and client teams on a weekly
+                basis. Performed deployments, CMS changes and monitoring
+                reports.
+              </p>
+              <h1>Front End</h1>
+              <p>React, Typescript, Sass, Redux</p>
+              <h1>Back End</h1>
+              <p>Firebase Cloud Functions, Express.js, RESTful API, Stripe</p>
+            </div>
             <Link
               href="https://www.cliffcrafts.com"
               target="_blank"

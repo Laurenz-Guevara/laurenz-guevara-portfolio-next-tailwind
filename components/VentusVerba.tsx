@@ -29,18 +29,17 @@ function VentusVerba() {
             >
               Ventus Verba
             </Link>
-            <p className="py-3 lg:pr-12">
-              CMS-driven React site with API calls to Sanity using GROQ and
-              deployed with Firebase.
-            </p>
-            <p className="py-3 lg:pr-12">
-              The mission with this application was to learn how to apply and
-              provide CMS to a React website from scratch.
-            </p>
-            <p className="py-3 lg:pr-12">
-              I designed it first with Figma and then separated features into
-              components.
-            </p>
+            <div className="max-w-screen-lg pb-3 lg:pr-12 lg:text-xl [&>h1]:pb-1 [&>h1]:pt-3 [&>h1]:text-xl [&>h1]:font-bold">
+              <p className="py-3 lg:pr-12">
+                CMS-driven React site with API calls to Sanity using GROQ and
+                deployed with Firebase. Online repository for interesting or
+                useful words.
+              </p>
+              <h1>Front End</h1>
+              <p>React, Javascript, SCSS</p>
+              <h1>Back End</h1>
+              <p>Sanity.io Content Management System, Firebase</p>
+            </div>
             <Link
               href="https://ventus-verba.web.app"
               target="_blank"

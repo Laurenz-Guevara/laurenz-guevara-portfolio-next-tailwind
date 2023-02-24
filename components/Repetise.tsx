@@ -30,19 +30,18 @@ function Repetise() {
             >
               Repetise
             </Link>
-            <p className="py-3 lg:pr-12">
-              React based project, styled with SaSS, using Firebase to provide
-              Authentication, Database, and deployment.
-            </p>
-            <p className="py-3 lg:pr-12">
-              This application was built to provide a selection of language
-              flashcards that would train the user with a spaced repetition
-              algorithm.
-            </p>
-            <p className="py-3 lg:pr-12">
-              As the user learns more vocabulary the frequency they would see
-              words they know would be reduced.
-            </p>
+            <div className="max-w-screen-lg pb-3 lg:pr-12 lg:text-xl [&>h1]:pb-1 [&>h1]:pt-3 [&>h1]:text-xl [&>h1]:font-bold">
+              <p className="pt-3">
+                React based project, styled with Scss, using Firebase to provide
+                Authentication, Database, and deployment. Frequency of
+                flashcards are shown based on a spaced repetition algorithm
+                calculated after each session.
+              </p>
+              <h1>Front End</h1>
+              <p>React, Javascript, SCSS</p>
+              <h1>Back End</h1>
+              <p>Firestore Database, Firebase Authentication</p>
+            </div>
             <Link
               href="https://repetise.com/welcome-to-repetise"
               target="_blank"

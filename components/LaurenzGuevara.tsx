@@ -25,14 +25,18 @@ function LaurenzGuevara() {
             >
               Portfolio
             </a>
-            <p className="py-3 lg:pr-12">
-              Portfolio built with Next.js and styled using tailwind.
-            </p>
-            <p className="py-3 lg:pr-12">
-              First using Figma to create wireframes / designs and then
-              translate those designs. Using Lighthouse to optimise metrics and
-              automated deployments through Vercel.
-            </p>
+            <div className="max-w-screen-lg pb-3 lg:pr-12 lg:text-xl [&>h1]:pb-1 [&>h1]:pt-3 [&>h1]:text-xl [&>h1]:font-bold">
+              <p className="py-3 lg:pr-12">
+                Portfolio built with Next.js and styled using tailwind. Figma to
+                create wireframes and designs. Framer motion to provide
+                animations. Lighthouse to optimise SEO and accessability metrics
+                with automated deployments through Vercel.
+              </p>
+              <h1>Front End</h1>
+              <p>Next, Typescript, Tailwind, Framer Motion</p>
+              <h1>Back End</h1>
+              <p>Vercel</p>
+            </div>
             <a
               href="#splashpage"
               className="hidden rounded-xl bg-palette-300 px-5 py-1 text-lg font-[500] text-white hover:opacity-90 lg:inline"

@@ -108,7 +108,7 @@ function Hero() {
             Web Developer, Tinkerer and Mad Scientist
           </p>
           <a
-            href="#cliffcrafts"
+            href="#experience"
             className="my-5 mb-12 rounded-full bg-palette-100 px-5 py-2 text-xl font-[500] text-white hover:bg-palette-300 hover:text-white lg:hidden lg:text-lg"
           >
             VIEW EXPERIENCE

@@ -66,8 +66,6 @@ v18.13.0
     npm run dev
     ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- CONTACT -->
 ## Contact
 

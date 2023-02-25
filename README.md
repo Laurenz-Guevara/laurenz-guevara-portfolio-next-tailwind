@@ -13,9 +13,15 @@
 </div>
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
-
 [![Product Name Screen Shot][product-screenshot]](https://www.laurenzguevara.com/)
+
+## Additional Images
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/58118627/221336524-61583d3e-9a0b-48e9-b2bb-85535ebd3845.png" width="32%" /> 
+  <img src="https://user-images.githubusercontent.com/58118627/221335492-175726bb-d255-4201-b677-830033138dc1.png" width="32%" />
+  <img src="https://user-images.githubusercontent.com/58118627/221336634-64278ee8-2a25-4eda-a032-f83fa02d80e0.png" width="32%" />
+</p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

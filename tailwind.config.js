@@ -24,10 +24,10 @@ module.exports = {
       },
     },
     gridTemplateColumns: {
-      mstack: 'repeat(6,auto)',
-      stack: 'repeat(7,auto)',
-      short: 'repeat(4,auto)',
-      xshort: 'repeat(2,auto)',
+      600: 'repeat(6,auto)',
+      700: 'repeat(7,auto)',
+      400: 'repeat(4,auto)',
+      200: 'repeat(2,auto)',
       duo: '1fr 1fr',
     },
     boxShadow: {

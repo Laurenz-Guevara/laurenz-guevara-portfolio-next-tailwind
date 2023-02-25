@@ -10,7 +10,7 @@ function Footer() {
   return (
     <>
       <section className="w-full bg-palette-900">
-        <div className="mx-auto max-w-screen-xl px-8 py-6 text-lg lg:grid lg:grid-cols-short lg:gap-8 lg:py-8 lg:px-20">
+        <div className="mx-auto max-w-screen-xl px-8 py-6 text-lg lg:grid lg:grid-cols-400 lg:gap-8 lg:py-8 lg:px-20">
           <div className="pb-4 text-white lg:p-0">
             <h1 className="flex justify-between py-1 text-2xl">Portfolio</h1>
             <p className="py-1">Built by Laurenz Guevara</p>

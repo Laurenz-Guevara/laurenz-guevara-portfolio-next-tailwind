@@ -96,7 +96,7 @@ function WorkExperience() {
             </div>
             <Link
               className="rounded-xl bg-palette-1000 px-5 py-1 text-lg font-[500] text-white hover:opacity-70"
-              href="https://drive.google.com/file/d/1_t_9bJkklSoHVZNUOepd_WSDRFRP7gkP/view"
+              href="https://drive.google.com/file/d/1MjH3CjQ_EyPBD4TAiLlLFRR2vHBYrs4H/view"
               target="_blank"
             >
               Resume

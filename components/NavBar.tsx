@@ -75,7 +75,7 @@ function NavBar() {
           </a>
           <Link
             className="hover:opacity-70"
-            href="https://drive.google.com/file/d/1_t_9bJkklSoHVZNUOepd_WSDRFRP7gkP/view"
+            href="https://drive.google.com/file/d/1MjH3CjQ_EyPBD4TAiLlLFRR2vHBYrs4H/view"
             target="_blank"
           >
             Resume

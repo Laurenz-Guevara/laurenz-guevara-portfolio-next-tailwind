@@ -59,7 +59,7 @@ function WorkExperience() {
               <h1>My Role at MMT:</h1>
               <ul className="pl-6 [&>li]:list-disc [&>li]:pb-1">
                 <li>
-                  Built new accessable and mobile-friendly pages, forms and
+                  Built new accessible and mobile-friendly pages, forms and
                   components on both <strong>React</strong> and
                   <strong> .NET</strong> websites.
                 </li>
@@ -79,11 +79,11 @@ function WorkExperience() {
                   designs into working components.
                 </li>
                 <li>
-                  Deployed production ready environments with
+                  Deployed production-ready environments with
                   <strong> Azure Pipelines</strong>.
                 </li>
                 <li>
-                  Troubleshooting and resolved both <strong>Front-end </strong>
+                  Troubleshooting and resolving both <strong>Front-end </strong>
                   and <strong>Back-end</strong> bugs within tight response
                   deadlines.
                 </li>

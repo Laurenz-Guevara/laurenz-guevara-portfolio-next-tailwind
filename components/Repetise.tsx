@@ -67,7 +67,7 @@ function Repetise() {
           <h1 className="max-w-fit border-b-4 border-palette-700 text-2xl font-bold">
             Technology Stack
           </h1>
-          <div className="xsm:grid-cols-200 grid grid-cols-400 justify-between pt-3 lg:grid-cols-700">
+          <div className="grid grid-cols-400 justify-between pt-3 xsm:grid-cols-200 lg:grid-cols-800">
             <div className="py-2 text-center">
               <Image
                 src={reactIcon}

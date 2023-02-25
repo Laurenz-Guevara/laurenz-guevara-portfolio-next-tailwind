@@ -1,4 +1,7 @@
 
+<div style="text-align: center;">
+    <img width="950" height="550" src="./assets/preview/laurenz-guevara.png">
+</div>
 
 ## Getting Started
 

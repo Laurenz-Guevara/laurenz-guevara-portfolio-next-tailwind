@@ -79,8 +79,8 @@ function WorkExperience() {
                   designs into working components.
                 </li>
                 <li>
-                  Deployed production-ready environments with
-                  <strong> Azure Pipelines</strong>.
+                  Frequently deployed production-ready environments with
+                  <strong> Azure</strong>.
                 </li>
                 <li>
                   Troubleshooting and resolving both <strong>Front-end </strong>
@@ -89,7 +89,8 @@ function WorkExperience() {
                 </li>
                 <li>
                   Performed <strong>critical incident management </strong> and
-                  provided monthly <strong>monitoring reports</strong>.
+                  provided monthly <strong>monitoring reports</strong> to
+                  clients.
                 </li>
               </ul>
             </div>

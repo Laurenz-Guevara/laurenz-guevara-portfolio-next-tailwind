@@ -53,7 +53,7 @@ function Repetise() {
           <Image
             src={repetise}
             alt="repetise preview"
-            className="mb-5 border border-palette-500 shadow-main lg:w-6/12"
+            className="mb-5 h-fit border border-palette-500 object-contain shadow-main lg:w-6/12"
           />
           <Link
             href="https://repetise.com/welcome-to-repetise"

@@ -57,7 +57,7 @@ function Cliffcrafts() {
           <Image
             src={cliffcrafts}
             alt="cliffcrafts preview"
-            className="mb-5 border border-palette-500 shadow-main lg:w-6/12"
+            className="mb-5 h-fit border border-palette-500 object-contain shadow-main lg:w-6/12"
           />
           <Link
             href="https://www.cliffcrafts.com"

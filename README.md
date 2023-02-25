@@ -46,9 +46,22 @@
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+### Built Using
+
+* [Next.js 13](https://nextjs.org/)
+* [Tailwind](https://tailwindcss.com/)
+* [Framer Motion](https://www.framer.com/motion/)
+
+<!-- GETTING STARTED -->
 ## Getting Started
 
-Node Version v18.13.0
+If you would like to build this app locally for yourself just follow the instructions below.
+
+### Node Version
+
+v18.13.0
+
+### Installation
 
 1. Clone the repo
 
@@ -73,4 +86,7 @@ Node Version v18.13.0
     ```bash
     npm run dev
     ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 [product-screenshot]: ./assets/preview/laurenz-guevara.png

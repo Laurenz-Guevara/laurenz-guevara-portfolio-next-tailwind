@@ -13,7 +13,6 @@ import cssIcon from '../assets/icons/css.png';
 import reactIcon from '../assets/icons/react.png';
 import javascriptIcon from '../assets/icons/javascript.png';
 import sassIcon from '../assets/icons/sass.png';
-import adobeXd from '../assets/icons/adobe-xd.png';
 import jiraIcon from '../assets/icons/jira.png';
 import azureIcon from '../assets/icons/azure.webp';
 import bitbucketIcon from '../assets/icons/bitbucket.jpg';

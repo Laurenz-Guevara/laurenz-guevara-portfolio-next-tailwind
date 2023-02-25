@@ -49,8 +49,10 @@ function WorkExperience() {
             <div className="max-w-screen-lg py-3 lg:text-xl [&>h1]:pb-1 [&>h1]:pt-4 [&>h1]:text-xl [&>h1]:font-bold">
               <h1 className="text-xl ">Web Application Support Engineer</h1>
               <p>
-                Developed with React, HTML, CSS/SCSS, and JavaScript to build
-                and maintain websites for over 12 different clients.
+                Developed with
+                <strong> React</strong>, <strong>HTML</strong>,
+                <strong> CSS/SCSS</strong>, and <strong>JavaScript</strong> to
+                build and maintain websites for over 12 different clients.
                 Communicated with stakeholders and client teams on a weekly
                 basis. Performed deployments, CMS changes and monitoring
                 reports.
@@ -59,15 +61,18 @@ function WorkExperience() {
               <ul className="pl-6 [&>li]:list-disc [&>li]:pb-1">
                 <li>
                   Built new accessable and mobile-friendly pages, forms and
-                  components on both React and .NET websites.
+                  components on both <strong>React</strong> and
+                  <strong> .NET</strong> websites.
                 </li>
                 <li>
-                  Developed with RESTful API's and Content Management Systems
-                  such as Kentico and Kontent.
+                  Developed with <strong>RESTful API's</strong> and
+                  <strong> Content Management Systems</strong> such as Kentico
+                  and Kontent.
                 </li>
                 <li>
                   Designed and implemented new features in accordance with
-                  clients both alone and with other developers in an agile
+                  clients both alone and with other developers in an
+                  <strong> agile </strong>
                   environment.
                 </li>
                 <li>
@@ -75,15 +80,17 @@ function WorkExperience() {
                   designs into working components.
                 </li>
                 <li>
-                  Deployed production ready environments with Azure Pipelines.
+                  Deployed production ready environments with
+                  <strong> Azure Pipelines</strong>.
                 </li>
                 <li>
-                  Troubleshooting and resolved both Front-end and Back-end bugs
-                  within tight response deadlines.
+                  Troubleshooting and resolved both <strong>Front-end </strong>
+                  and <strong>Back-end</strong> bugs within tight response
+                  deadlines.
                 </li>
                 <li>
-                  Performed critical incident management and provided monthly
-                  monitoring reports.
+                  Performed <strong>critical incident management </strong> and
+                  provided monthly <strong>monitoring reports</strong>.
                 </li>
               </ul>
             </div>
@@ -100,7 +107,7 @@ function WorkExperience() {
           <h1 className="max-w-fit border-b-4 border-palette-1000 text-2xl font-bold">
             Technical Skills
           </h1>
-          <div className="xsm:grid-cols-200 grid grid-cols-400 justify-between pt-3 lg:grid-cols-600">
+          <div className="grid grid-cols-400 justify-between pt-3 xsm:grid-cols-200 lg:grid-cols-600">
             <div className="py-2 text-center">
               <Image
                 src={reactIcon}

@@ -13,7 +13,7 @@ function NavBar() {
   const [openBurger, setOpenBurger] = useState(false);
 
   return (
-    <header
+    <nav
       className={
         openBurger
           ? 'mb-6 rounded-b-[30px] px-8 shadow-nav transition-all duration-300 lg:mb-0 lg:rounded-none lg:px-20 lg:shadow-none'
@@ -88,7 +88,7 @@ function NavBar() {
           </Link>
         </motion.nav>
       </div>
-    </header>
+    </nav>
   );
 }
 

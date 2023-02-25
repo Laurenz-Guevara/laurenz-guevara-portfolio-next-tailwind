@@ -16,7 +16,7 @@ import { textUp, textDown } from '../animation/motion';
 
 function Hero() {
   return (
-    <main
+    <header
       id="splashpage"
       className="mx-auto min-h-screen max-w-screen-xl overflow-hidden"
     >
@@ -134,7 +134,7 @@ function Hero() {
           />
         </motion.div>
       </div>
-    </main>
+    </header>
   );
 }
 

@@ -47,7 +47,7 @@ function Cliffcrafts() {
           <Link
             href="https://www.cliffcrafts.com"
             target="_blank"
-            className="hidden rounded-xl bg-palette-200 px-5 py-1 text-lg font-[500] text-white hover:bg-palette-300 lg:inline"
+            className="hidden rounded-xl bg-palette-200 px-5 py-1 text-lg font-[500] text-white hover:opacity-70 lg:inline"
           >
             Visit Site
           </Link>
@@ -60,7 +60,7 @@ function Cliffcrafts() {
         <Link
           href="https://www.cliffcrafts.com"
           target="_blank"
-          className="rounded-xl bg-palette-200 px-5 py-1 text-lg font-[500] text-white hover:bg-palette-300 lg:hidden"
+          className="rounded-xl bg-palette-200 px-5 py-1 text-lg font-[500] text-white hover:opacity-70 lg:hidden"
         >
           Visit Site
         </Link>

@@ -73,3 +73,4 @@ Node Version v18.13.0
     ```bash
     npm run dev
     ```
+[product-screenshot]: ./assets/preview/laurenz-guevara.png

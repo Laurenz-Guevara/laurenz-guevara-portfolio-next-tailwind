@@ -105,7 +105,7 @@ function WorkExperience() {
         </div>
         <div className="pb-10">
           <h1 className="max-w-fit border-b-4 border-palette-1000 text-2xl font-bold">
-            Technical Skills
+            Technical Skills at MMT
           </h1>
           <div className="grid grid-cols-400 justify-between pt-3 xsm:grid-cols-200 lg:grid-cols-600">
             <div className="py-2 text-center">

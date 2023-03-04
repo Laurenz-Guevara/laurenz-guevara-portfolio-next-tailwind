@@ -6,12 +6,16 @@ import Footer from '@/components/Footer';
 import LaurenzGuevara from '@/components/LaurenzGuevara';
 import WorkExperience from '@/components/WorkExperience';
 
-export default function Home() {
+import { client } from '../lib/contentful/client';
+
+export default async function Home() {
+  const experience = await getExperience();
+
   return (
     <>
       <Hero />
       <div id="experience" className="h-10 bg-palette-1000"></div>
-      <WorkExperience />
+      <WorkExperience experience={experience} />
       <div id="cliffcrafts" className="h-10 bg-palette-200"></div>
       <Cliffcrafts />
       <div id="repetise" className="h-10 bg-palette-700"></div>
@@ -23,4 +27,9 @@ export default function Home() {
       <Footer />
     </>
   );
+
+  async function getExperience() {
+    const response = await client.getEntries({ content_type: 'post' });
+    return response.items;
+  }
 }

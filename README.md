@@ -74,4 +74,4 @@ LinkedIn - https://www.linkedin.com/in/laurenzguevara/
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-[product-screenshot]:https://user-images.githubusercontent.com/58118627/222937708-a73f978c-7cc5-48b6-aa98-1e354dcac1ee.png
+[product-screenshot]:https://user-images.githubusercontent.com/58118627/222937758-fc593cd3-2398-4142-b91c-f5182c1e6d91.png

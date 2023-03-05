@@ -1,11 +1,7 @@
-/* eslint-disable react/no-unescaped-entities */
 'use client';
 
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
-
-import reactIcon from '../assets/icons/react.png';
 
 import ContentfulImage from './ContentfulImage';
 import RichText from './RichText';
@@ -21,8 +17,6 @@ function WorkExperience({ experience }: Experience) {
     roleDuties,
     technologyStackImages,
   } = experience[0].fields;
-
-  console.log('hi', technologyStackImages[0].fields);
 
   return (
     <section className="mx-auto max-w-screen-xl">

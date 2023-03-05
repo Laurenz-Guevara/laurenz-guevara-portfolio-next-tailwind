@@ -54,7 +54,7 @@ function Hero() {
             animate={textUp.show}
             initial={textUp.hidden}
             transition={{ delay: 0.7, duration: 0.6 }}
-            href="#cliffcrafts"
+            href="#Cliffcrafts"
             className="my-5 hidden w-min whitespace-nowrap rounded-full bg-palette-100 px-5 py-1 text-lg font-[500] text-white hover:bg-palette-300 lg:block lg:text-xl"
           >
             VIEW PORTFOLIO
@@ -108,7 +108,7 @@ function Hero() {
             Web Developer, Tinkerer and Mad Scientist
           </p>
           <a
-            href="#cliffcrafts"
+            href="#Cliffcrafts"
             className="my-5 mb-12 rounded-full bg-palette-100 px-5 py-2 text-xl font-[500] text-white hover:bg-palette-300 hover:text-white lg:hidden lg:text-lg"
           >
             VIEW PORTFOLIO
@@ -124,7 +124,7 @@ function Hero() {
           }}
           className="col-span-2 hidden text-center text-xl font-bold lg:block"
         >
-          <a href="#experience" className="hover:opacity-70">
+          <a href="#Experience" className="hover:opacity-70">
             View Experience
           </a>
           <Image

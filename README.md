@@ -29,6 +29,7 @@
 
 * [Next.js 13](https://nextjs.org/)
 * [Tailwind](https://tailwindcss.com/)
+* [Contentful](https://www.contentful.com/)
 * [Framer Motion](https://www.framer.com/motion/)
 
 <!-- GETTING STARTED -->

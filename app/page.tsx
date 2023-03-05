@@ -6,21 +6,32 @@ import Footer from '@/components/Footer';
 import LaurenzGuevara from '@/components/LaurenzGuevara';
 import WorkExperience from '@/components/WorkExperience';
 
-export default function Home() {
+import { client } from '../lib/contentful/client';
+import PortfolioSection from '@/components/PortfolioSection';
+
+export default async function Home() {
+  const experience = await getExperience();
+  const portfolios = await getPortfolio();
+
   return (
     <>
       <Hero />
-      <div id="experience" className="h-10 bg-palette-1000"></div>
-      <WorkExperience />
-      <div id="cliffcrafts" className="h-10 bg-palette-200"></div>
-      <Cliffcrafts />
-      <div id="repetise" className="h-10 bg-palette-700"></div>
-      <Repetise />
-      <div id="ventus-verba" className="h-10 bg-palette-100"></div>
-      <VentusVerba />
-      <div id="laurenz-guevara" className="h-10 bg-palette-300"></div>
-      <LaurenzGuevara />
+      <div id="Experience" className="h-10 bg-palette-1000"></div>
+      <WorkExperience experience={experience} />
+      <PortfolioSection portfolios={portfolios} />
       <Footer />
     </>
   );
+
+  async function getExperience() {
+    const response = await client.getEntries({ content_type: 'post' });
+    return response.items;
+  }
+
+  async function getPortfolio() {
+    const response = await client.getEntries({
+      content_type: 'portfolioPreview',
+    });
+    return response.items;
+  }
 }

@@ -6,7 +6,7 @@ import Link from 'next/link';
 import ContentfulImage from './ContentfulImage';
 import RichText from './RichText';
 
-function WorkExperience({ experience }: Experience) {
+function WorkExperience({ experience, color }: Experience) {
   const {
     postTitle,
     thumbnail,
@@ -16,14 +16,18 @@ function WorkExperience({ experience }: Experience) {
     roleDescription,
     roleDuties,
     technologyStackImages,
-  } = experience[0].fields;
+    companyWebsite,
+  } = experience.fields;
 
   return (
     <section className="mx-auto max-w-screen-xl">
       <section className="px-8 lg:px-20">
         <div className="lg:wrap py-10 lg:flex">
           <div>
-            <h1 className="w-min whitespace-nowrap border-b-4 border-palette-1000 text-2xl font-bold">
+            <h1
+              className="w-min whitespace-nowrap border-b-4 text-2xl font-bold"
+              style={{ borderColor: `${color}` }}
+            >
               {postTitle}
             </h1>
             <div className="flex pt-3">
@@ -36,7 +40,7 @@ function WorkExperience({ experience }: Experience) {
               />
               <div>
                 <Link
-                  href="https://mmtdigital.co.uk/"
+                  href={companyWebsite}
                   target="_blank"
                   className="text-2xl font-bold hover:opacity-70"
                 >
@@ -48,11 +52,12 @@ function WorkExperience({ experience }: Experience) {
             <div className="max-w-screen-lg py-3 lg:text-xl [&>h1]:pb-1 [&>h1]:pt-4 [&>h1]:text-xl [&>h1]:font-bold">
               <h1 className="text-xl ">{role}</h1>
               <RichText content={roleDescription} />
-              <h1>My Role at MMT:</h1>
+              <h1>My Role at {companyName}:</h1>
               <RichText content={roleDuties} />
             </div>
             <Link
-              className="rounded-xl bg-palette-1000 px-5 py-1 text-lg font-[500] text-white hover:opacity-70"
+              className="rounded-xl px-5 py-1 text-lg font-[500] text-white hover:opacity-70"
+              style={{ backgroundColor: `${color}` }}
               href="https://drive.google.com/file/d/1MjH3CjQ_EyPBD4TAiLlLFRR2vHBYrs4H/view"
               target="_blank"
             >
@@ -61,8 +66,11 @@ function WorkExperience({ experience }: Experience) {
           </div>
         </div>
         <div className="pb-10">
-          <h1 className="max-w-fit border-b-4 border-palette-1000 text-2xl font-bold">
-            Technical Skills at MMT
+          <h1
+            className="max-w-fit border-b-4 text-2xl font-bold"
+            style={{ borderColor: `${color}` }}
+          >
+            Technical Skills at {companyName}
           </h1>
           <div className="grid grid-cols-400 justify-between pt-3 xsm:grid-cols-200 lg:grid-cols-600">
             {technologyStackImages.map((tech: any, idx: number) => (

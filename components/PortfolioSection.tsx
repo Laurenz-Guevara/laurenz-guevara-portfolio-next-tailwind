@@ -39,7 +39,6 @@ function PortfolioSection({ portfolios }: Portfolios) {
                   Visit Site
                 </Link>
               </div>
-
               <ContentfulImage
                 alt={`Image for ${item.fields.title} website`}
                 src={item.fields.imagePreview.fields.file.url}
@@ -49,7 +48,6 @@ function PortfolioSection({ portfolios }: Portfolios) {
                 }
                 className="mb-5 h-fit border object-contain shadow-main lg:w-6/12"
               />
-
               <Link
                 href={item.fields.slug}
                 target="_blank"

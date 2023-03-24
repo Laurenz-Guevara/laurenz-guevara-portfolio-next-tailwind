@@ -1,5 +1,6 @@
 interface Experience {
-  experience: [ExpFields];
+  experience: ExpFields;
+  color: string;
 }
 
 interface ExpFields {
@@ -15,6 +16,11 @@ interface ExperienceData {
   roleDescription: string;
   roleDuties: Array<string>;
   technologyStackImages: Array<any>;
+  companyWebsite: string;
+}
+
+interface Color {
+  color: string;
 }
 
 interface Portfolio {

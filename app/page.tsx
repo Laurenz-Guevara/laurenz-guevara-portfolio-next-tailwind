@@ -1,9 +1,5 @@
 import Hero from '@/components/Hero';
-import Cliffcrafts from '@/components/Cliffcrafts';
-import VentusVerba from '@/components/VentusVerba';
-import Repetise from '@/components/Repetise';
 import Footer from '@/components/Footer';
-import LaurenzGuevara from '@/components/LaurenzGuevara';
 import WorkExperience from '@/components/WorkExperience';
 
 import { client } from '../lib/contentful/client';
@@ -16,8 +12,10 @@ export default async function Home() {
   return (
     <>
       <Hero />
+      <div id="Experience" className="h-10 bg-palette-1100"></div>
+      <WorkExperience experience={experience[0]} color={'#2BCD5A'} />
       <div id="Experience" className="h-10 bg-palette-1000"></div>
-      <WorkExperience experience={experience} />
+      <WorkExperience experience={experience[1]} color={'#FF0044'} />
       <PortfolioSection portfolios={portfolios} />
       <Footer />
     </>

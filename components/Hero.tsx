@@ -3,7 +3,6 @@
 import React from 'react';
 import NavBar from './NavBar';
 import Image from 'next/image';
-
 import mockup from '../assets/mockups/mockup.png';
 import mockupSide from '../assets/mockups/mockup-side.png';
 import redBubble from '../assets/shapes/red-bubbles.svg';

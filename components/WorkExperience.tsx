@@ -70,7 +70,7 @@ function WorkExperience({ experience, color }: Experience) {
             className="max-w-fit border-b-4 text-2xl font-bold"
             style={{ borderColor: `${color}` }}
           >
-            Technical Skills at {companyName}
+            Technical Skills
           </h1>
           <div className="grid grid-cols-400 justify-between pt-3 xsm:grid-cols-200 lg:grid-cols-600">
             {technologyStackImages.map((tech: any, idx: number) => (

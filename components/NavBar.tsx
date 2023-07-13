@@ -57,7 +57,7 @@ function NavBar() {
         >
           <a
             className="hover:opacity-70"
-            href="#cliffcrafts"
+            href="#Cliffcrafts"
             onClick={() => {
               setOpenBurger(false);
             }}
@@ -66,7 +66,7 @@ function NavBar() {
           </a>
           <a
             className="hover:opacity-70"
-            href="#experience"
+            href="#Experience"
             onClick={() => {
               setOpenBurger(false);
             }}

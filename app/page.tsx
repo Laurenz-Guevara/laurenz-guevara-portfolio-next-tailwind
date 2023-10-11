@@ -12,10 +12,12 @@ export default async function Home() {
   return (
     <>
       <Hero />
+      <div id="Experience" className="h-10 bg-black"></div>
+      <WorkExperience experience={experience[0]} color={'#000'} />
       <div id="Experience" className="h-10 bg-palette-1100"></div>
-      <WorkExperience experience={experience[0]} color={'#2BCD5A'} />
+      <WorkExperience experience={experience[1]} color={'#2BCD5A'} />
       <div id="Experience" className="h-10 bg-palette-1000"></div>
-      <WorkExperience experience={experience[1]} color={'#FF0044'} />
+      <WorkExperience experience={experience[2]} color={'#FF0044'} />
       <PortfolioSection portfolios={portfolios} />
       <Footer />
     </>
